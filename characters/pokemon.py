@@ -2,6 +2,7 @@ import pygame
 from characters.attack import Attack
 
 class Pokemon:
+
     def __init__(self, hp, atck, defense, speed, name):
         self.HP = hp
         self.Attack = atck
@@ -37,5 +38,13 @@ class Carapuce(Pokemon):
         Pokemon.__init__(self, 35, 30, 35, 30, 'Carapuce')
         atck1 = Attack('Charge', 30)
         atck2 = Attack('Pistolet à O', 30)
+        self.listAttack.append(atck1)
+        self.listAttack.append(atck2)
+
+class Rattata(Pokemon):
+    def __init__(self):
+        Pokemon.__init__(self, 35, 30, 30, 30, 'Rattata')
+        atck1 = Attack('Charge', 30)
+        atck2 = Attack('Vive-attaque', 30)
         self.listAttack.append(atck1)
         self.listAttack.append(atck2)

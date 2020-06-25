@@ -27,7 +27,6 @@ start_btn_rect.left = 404
 start_btn_rect.height = 52
 start_btn_rect.width = 279
 
-
 game = Game(screen, myfont)
 starterList = list()
 while running:
@@ -49,12 +48,13 @@ while running:
                 player = Player('player')
                 game.is_playing = True
                 starterList = game.update_screen()
-            elif starterList['Salamèche'].collidepoint(event.pos):
-                player.starter = Salamèche()
-                game.update_screen()
-            elif starterList['Bulbizarre'].collidepoint(event.pos):
-                player.starter = Bulbizarre()
-                game.update_screen()
-            elif starterList['Carapuce'].collidepoint(event.pos):
-                player.starter = Carapuce()
-                game.update_screen()
+            elif starterList:
+                if starterList['Salamèche'].collidepoint(event.pos):
+                    player.starter = Salamèche()
+                    game.update_screen(player.starter)
+                elif starterList['Bulbizarre'].collidepoint(event.pos):
+                    player.starter = Bulbizarre()
+                    game.update_screen(player.starter)
+                elif starterList['Carapuce'].collidepoint(event.pos):
+                    player.starter = Carapuce()
+                    game.update_screen(player.starter)
