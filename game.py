@@ -4,6 +4,7 @@ from characters.pokemon import Rattata
 
 class Game:
     def __init__(self, screen, font):
+        self.fight = ''
         self.is_playing = False
         self.state = 0
         self.screen = screen
@@ -16,7 +17,7 @@ class Game:
                        'rattata': pygame.image.load('assets/Sprites/rattata.png'),
                        'fight_bg': pygame.image.load('assets/Images/fight_bg.jpg')}
 
-    def update_screen(self, starter = ''):
+    def update_screen(self, starter=''):
         if self.state == 0:
             self.screen.blit(self.images['white_bg'], (0, 0))
             pygame.display.flip()
@@ -45,7 +46,8 @@ class Game:
             pygame.display.flip()
             self.screen.blit(self.images['fight_bg'], (0, 0))
             pygame.display.flip()
-            fight = Fight(starter, Rattata(), self)
+            self.fight = Fight(starter, Rattata(), self)
+
 
 
 

@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dffb845-7e35-4309-9dfb-30ddb7e712da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/Sprites/salameche_dos.png" afterDir="false" />
+    <list default="true" id="d972b13f-7d7d-48c8-a6d1-4af80342dece" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pokemon.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Sprites/rattata.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Sprites/rattata.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Sprites/salamèche DOS.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/characters/pokemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/characters/pokemon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fight.py" beforeDir="false" afterPath="$PROJECT_DIR$/fight.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
@@ -34,22 +16,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1dfTWTp4KRlimT53q01aoTi8oh1" />
+  <component name="ProjectId" id="1drDSa6OxqcaNax4MtQfSzv93Pg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -60,9 +30,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -72,9 +39,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Webstart - Dev 1\Python\pokemon\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -97,70 +64,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1dffb845-7e35-4309-9dfb-30ddb7e712da" name="Default Changelist" comment="" />
-      <created>1592815178659</created>
+      <changelist id="d972b13f-7d7d-48c8-a6d1-4af80342dece" name="Default Changelist" comment="" />
+      <created>1593174318494</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592815178659</updated>
+      <updated>1593174318494</updated>
     </task>
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Enzo" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="8" width="746" height="808" key="#main" timestamp="1592821552203">
+    <state width="1515" height="176" key="GridCell.Tab.0.bottom" timestamp="1593183901987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="484" y="8" width="746" height="808" key="#main/0.0.1536.824@0.0.1536.824" timestamp="1592821552203" />
-    <state x="784" y="440" key="Github.CreateGistDialog" timestamp="1592815316075">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593183901987" />
+    <state width="1515" height="176" key="GridCell.Tab.0.center" timestamp="1593183901987">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="784" y="440" key="Github.CreateGistDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592815316075" />
-    <state width="1899" height="65" key="GridCell.Tab.0.bottom" timestamp="1593097578635">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593183901987" />
+    <state width="1515" height="176" key="GridCell.Tab.0.left" timestamp="1593183901987">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="104" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592844434587" />
-    <state width="1899" height="65" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593097578635" />
-    <state width="1899" height="65" key="GridCell.Tab.0.center" timestamp="1593097578635">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1515" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593183901987" />
+    <state width="1515" height="176" key="GridCell.Tab.0.right" timestamp="1593183901987">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="104" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592844434587" />
-    <state width="1899" height="65" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593097578635" />
-    <state width="1899" height="65" key="GridCell.Tab.0.left" timestamp="1593097578635">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1515" height="104" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592844434586" />
-    <state width="1899" height="65" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593097578635" />
-    <state width="1899" height="65" key="GridCell.Tab.0.right" timestamp="1593097578635">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1515" height="104" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592844434587" />
-    <state width="1899" height="65" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593097578635" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1593087668407">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593087668407" />
+    <state width="1515" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593183901987" />
   </component>
 </project>

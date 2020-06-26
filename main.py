@@ -2,6 +2,7 @@ import pygame
 from game import Game
 from player import Player
 from characters.pokemon import *
+from fight import Fight
 pygame.init()
 pygame.font.init()
 
@@ -29,6 +30,7 @@ start_btn_rect.width = 279
 
 game = Game(screen, myfont)
 starterList = list()
+rects = list()
 while running:
     if not game.is_playing:
         # Set le background
@@ -58,3 +60,10 @@ while running:
                 elif starterList['Carapuce'].collidepoint(event.pos):
                     player.starter = Carapuce()
                     game.update_screen(player.starter)
+                rects = game.fight.initFight()
+                starterList = list()
+            elif isinstance(game.fight, Fight):
+                if rects[0].collidepoint(event.pos):
+                    game.fight.fighting(0)
+                elif rects[1].collidepoint(event.pos):
+                    game.fight.fighting(1)

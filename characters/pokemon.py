@@ -14,7 +14,15 @@ class Pokemon:
 
     #def update(self, name, attack, defense, hp, speed):
 
-    def getAttacks(self):
+    def health_update(self, surface, position):
+        bar_color = (111, 250, 46)
+        back_bar_color = (60, 63, 60)
+
+        bar_position = [position[0], position[1], 200, 10]
+        back_bar_position = [position[0], position[1], 200, 10]
+
+        pygame.draw.rect(surface, back_bar_color, back_bar_position)
+        pygame.draw.rect(surface, bar_color, bar_position)
         pass
 
 class Salamèche(Pokemon):
