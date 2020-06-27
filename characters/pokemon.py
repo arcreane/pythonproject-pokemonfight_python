@@ -5,6 +5,7 @@ class Pokemon:
 
     def __init__(self, hp, atck, defense, speed, name):
         self.HP = hp
+        self.maxHP = hp
         self.Attack = atck
         self.Defense = defense
         self.Speed = speed
@@ -14,16 +15,18 @@ class Pokemon:
 
     #def update(self, name, attack, defense, hp, speed):
 
-    def health_update(self, surface, position):
+    def health_update(self, surface, position, value):
         bar_color = (111, 250, 46)
         back_bar_color = (60, 63, 60)
 
-        bar_position = [position[0], position[1], 200, 10]
+        if value == 0:
+            bar_position = [position[0], position[1], 0, 10]
+        else:
+            bar_position = [position[0], position[1], 200 * (value / self.maxHP), 10]
         back_bar_position = [position[0], position[1], 200, 10]
 
         pygame.draw.rect(surface, back_bar_color, back_bar_position)
         pygame.draw.rect(surface, bar_color, bar_position)
-        pass
 
 class Salamèche(Pokemon):
     def __init__(self):

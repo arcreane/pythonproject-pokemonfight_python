@@ -12,8 +12,13 @@ class Game:
         self.images = {'white_bg': pygame.image.load('assets/Images/white_screen.jpg'),
                        'Salamèche': pygame.image.load('assets/Sprites/salameche.png'),
                        'Salamèche_dos': pygame.image.load('assets/Sprites/salameche_dos.png'),
+                       'Salamèche_hd': pygame.image.load('assets/Sprites/salameche_hd.png'),
                        'Bulbizarre': pygame.image.load('assets/Sprites/bulbizarre.png'),
+                       'Bulbizarre_dos': pygame.image.load('assets/Sprites/bulbizarre_dos.png'),
+                       'Bulbizarre_hd': pygame.image.load('assets/Sprites/bulbizarre_hd.png'),
                        'Carapuce': pygame.image.load('assets/Sprites/carapuce.png'),
+                       'Carapuce_dos': pygame.image.load('assets/Sprites/carapuce_dos.png'),
+                       'Carapuce_hd': pygame.image.load('assets/Sprites/carapuce_hd.png'),
                        'rattata': pygame.image.load('assets/Sprites/rattata.png'),
                        'fight_bg': pygame.image.load('assets/Images/fight_bg.jpg')}
 
@@ -47,7 +52,14 @@ class Game:
             self.screen.blit(self.images['fight_bg'], (0, 0))
             pygame.display.flip()
             self.fight = Fight(starter, Rattata(), self)
+            return
 
+
+    def playVictorySound(self):
+        pygame.mixer.music.unload()
+        pygame.mixer.music.load('assets/Songs/victory.mp3')
+        pygame.mixer.music.set_volume(0.1)
+        pygame.mixer.music.play(0)
 
 
 
